@@ -13,6 +13,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        int x = 0, y = 10, z = 20;
+        if( x == y && y == z && z == x && z != 8){
+            System.out.println( "Hello World!" );
+        }
     }
 }
